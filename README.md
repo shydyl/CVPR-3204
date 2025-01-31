@@ -4,7 +4,7 @@ We apologize for taking up your time. Due to limitations on length and format, w
 
 ## PG3C: More analysis of the computational cost and runtime.
 
-DanceCamera3D employs a diffusion model to generate camera movements, requiring multiple denoising steps during the testing phase to produce the final outputs. Under equivalent testing conditions, our method achieves a generation speed approximately **21 times faster** than DanceCamera3D, which utilizes DDIM as its sampler. Meanwhile, our method utilizes only 70% of the GPU memory compared to DanceCamera3D.
+DanceCamera3D employs a diffusion model to generate camera movements, requiring multiple denoising steps during the testing phase to produce the final outputs. Under equivalent testing conditions, our method achieves a generation speed approximately **21 times faster** than DanceCamera3D, which utilizes DDIM as its sampler. Meanwhile, our method utilizes only **70% of the GPU memory** compared to DanceCamera3D.
 
 
 
